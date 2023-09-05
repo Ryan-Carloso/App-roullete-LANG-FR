@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "France-App",
+    "name": "Spin Win 7",
     "slug": "France-App",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -21,10 +21,17 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "android": {
+        "package": "com.carloseu.spinwin7",
+        "versionCode": 1
+      },
+      "package": "com.ryancarlos1.FranceApp"
     },
-    "web": {
-      "favicon": "./assets/favicon.png"
+    "extra": {
+      "eas": {
+        "projectId": "10f62147-149e-46a1-80dc-c77630ec37e0"
+      }
     }
   }
 }
